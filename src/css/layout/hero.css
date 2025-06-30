@@ -1,0 +1,19 @@
+.hero {
+    height: 100vh;
+}
+
+
+.hero .container {
+}
+
+
+.hero__title {
+    font-size: 50px;
+    padding-top: 50%;
+    margin-bottom: 30px;
+}
+
+
+.hero__text {
+    font-size: 34px;
+}

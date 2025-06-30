@@ -5,6 +5,15 @@
   |============================
 */
 @import url('./base/reset.css');
+@import url('./base/common.css');
+
+/* Layout */
+@import url('./layout/header.css');
+@import url('./layout/hero.css');
+
+
+/* components */
+@import url('./components/modal.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
