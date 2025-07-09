@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/pixabay/assets/index-854579f3.js"></script>
-    <link rel="stylesheet" href="/pixabay/assets/index-75ede9f5.css">
+    <script type="module" crossorigin src="/pixabay/assets/index-59685338.js"></script>
+    <link rel="stylesheet" href="/pixabay/assets/index-7be7b4a4.css">
   </head>
 
   <body>
@@ -42,12 +42,28 @@
 </header>
     <section class="hero">
     <div class="container">
-        <h1 class="hero__title">
-            Find your image!
-        </h1>
-        <p class="hero__text">
-            Lorem ipsum dolor sit amet.
-        </p>
+        <div class="hero__content">
+            <h1 class="hero__title">
+                Find your image!
+            </h1>
+            <p class="hero__text">
+                Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/pixabay/assets/cat-c57c0266.jpg" alt="" class="swiper__img"></div>
+                <div class="swiper-slide"><img src="/pixabay/assets/goat-aae59739.jpg" alt="" class="swiper__img"></div>
+                <div class="swiper-slide"><img src="/pixabay/assets/lion-ead95a3d.jpg" alt="" class="swiper__img"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 </section>
 
